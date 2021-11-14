@@ -197,3 +197,16 @@ const updateOrCreate = function (array, value, index) {
   updateOrCreate([10, 20, 30], 50, 1); // => [10, 50, 30]
   updateOrCreate([10, 20, 30], 40, 3); // => [10, 20, 30, 40]
   updateOrCreate([10, 20, 30], 100, 10); // => [10, 20, 30, empty * 7, 100]*/
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  const sliceArray = function (array, startVal, endVal) {
+    // TODO: Your code here
+    
+    return array.slice(array.indexOf(startVal),array.indexOf(endVal)+1);
+  };
+  /*
+  sliceArray([10, 20, 30, 40, 50, 60], 10, 60); // => [10, 20, 30, 40, 50, 60]
+  sliceArray([10, 20, 30, 40, 50, 60], 20, 40); // => [20, 30, 40]
+  sliceArray([10, 20, 30, 40, 50, 60], 20, 20); // => []
+  sliceArray([10, 20, 30, 40, 50, 60], 50, 20); // => []*/
