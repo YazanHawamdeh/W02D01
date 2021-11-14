@@ -210,3 +210,18 @@ const updateOrCreate = function (array, value, index) {
   sliceArray([10, 20, 30, 40, 50, 60], 20, 40); // => [20, 30, 40]
   sliceArray([10, 20, 30, 40, 50, 60], 20, 20); // => []
   sliceArray([10, 20, 30, 40, 50, 60], 50, 20); // => []*/
+
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  const randomFruit = function (array) {
+    // TODO: Your code here
+    let ran= Math.floor(Math.random()*array.length)
+    return array[ran];
+  };
+  /*
+  const fruits = ["Apple", "Banana", "Strawberry", "Mango"];
+  
+  randomFruit(fruits); // =>"Apple"
+  randomFruit(fruits); // =>"Apple"
+  randomFruit(fruits); // =>"Strawberry"
+  randomFruit(fruits); // =>"Banana"*/
